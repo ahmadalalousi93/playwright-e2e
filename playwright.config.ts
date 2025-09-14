@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   reporter: [['html'], ['list']],
   use: {
-    baseURL: 'https://example.com',
+    baseURL: 'https://www.cvs.com',
     headless: true,
     trace: 'on-first-retry',
   },
