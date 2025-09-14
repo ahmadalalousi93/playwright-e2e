@@ -16,7 +16,8 @@
     "bdd:ff": "BROWSER=firefox cucumber-js",
     "bdd:cr": "BROWSER=chromium cucumber-js",
     "bdd:wk": "BROWSER=webkit cucumber-js",
-    "bdd:report": "open ./bdd-report/report.html || xdg-open ./bdd-report/report.html || start ./bdd-report/report.html"
+    "bdd:report": "open ./bdd-report/report.html || xdg-open ./bdd-report/report.html || start ./bdd-report/report.html",
+    "demo:all": "npm run test && npm run bdd:ff"
   },
   "keywords": [],
   "author": "",
