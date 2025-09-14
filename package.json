@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.3.3",
     "@typescript-eslint/eslint-plugin": "^8.43.0",
@@ -23,7 +24,9 @@
     "eslint-plugin-playwright": "^2.2.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
-    "prettier": "^3.6.2"
+    "playwright": "^1.55.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
@@ -32,7 +35,6 @@
     ]
   },
   "dependencies": {
-    "playwright": "^1.55.0",
     "playwright-core": "^1.55.0",
     "typescript": "^5.9.2"
   },
